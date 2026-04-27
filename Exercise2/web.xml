@@ -1,0 +1,13 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>EventServlet</servlet-name>
+        <servlet-class>EventServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EventServlet</servlet-name>
+        <url-pattern>/event</url-pattern>
+    </servlet-mapping>
+
+</web-app>
